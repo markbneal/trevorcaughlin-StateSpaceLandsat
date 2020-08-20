@@ -6,6 +6,7 @@ NCHAINS=8
 NITER=3500
 NWARMUP=3250
 
+
 library("rstan")
 
 
