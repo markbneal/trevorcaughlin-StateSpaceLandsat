@@ -2,10 +2,12 @@
 gc()
 memory.limit()
 memory.limit(10000)
-NCHAINS=8
-NITER=3500
-NWARMUP=3250
-
+# NCHAINS=8
+# NITER=3500
+# NWARMUP=3250
+NCHAINS=1
+NITER= 100
+NWARMUP= 50
 
 library("rstan")
 
